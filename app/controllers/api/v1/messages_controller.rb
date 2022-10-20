@@ -3,5 +3,4 @@ class Api::V1::MessagesController < ApplicationController
     @messages = Message.all
     render json: @messages
   end
-
-  end
+end
